@@ -1,0 +1,19 @@
+using System;
+
+namespace TimeLoop_CaparC
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int value = int.Parse(Console.ReadLine());
+            int start = 1;
+
+            while (start <= value)
+            {
+                Console.WriteLine(start + " Abracadabra");
+                start++;
+            }
+        }
+    }
+}
